@@ -24,7 +24,7 @@ frontend/build
 # misc
 .DS_Store
 frontend/.DS_Store
-
+backend/apuntes.txt
 frontend/npm-debug.log*
 frontend/yarn-debug.log*
 frontend/yarn-error.log*
