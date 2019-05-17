@@ -1,2 +1,3 @@
-# A-POS
+# Tiger POS
+
 Design and Structure of POS
