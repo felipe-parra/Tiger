@@ -1,0 +1,93 @@
+Diseño del proyecto
+    Maquetado de ...
+        UX
+        Backend
+        Front
+
+
+Backend
+    Servir BD
+        Articulos
+        Ventas
+        Cortes
+        Usuarios
+    
+Frontend
+    
+
+BD
+    Articles
+        Articulos--Main
+            ArticuloId
+            CodigoDeBarras--ObjectId
+            Description
+            NombreCorto/Abreviado
+            PrecioMinV--ObjectId
+            PrecioMaxV--ObjectId
+            IVA--ObjectId
+            IEPS--ObjectId
+            
+        Equivalencias
+            CodigoDeBarrasId
+            CodigoDeBarras
+            EquivalenciaQnty
+            Active
+        
+        Precios
+            ArticuloId--ObjectId
+            Precio
+            Qnty
+            Active
+
+        IVA
+            Nombre
+            Impuesto
+            Active
+
+        IEPS
+            Nombre
+            Impuesto
+            Active
+
+    Sales
+        Ticket
+            ticketId
+            DateCreated
+            StoreId--ObjectId
+            Amount
+
+
+    Stores
+        Store
+            name
+            address
+            
+
+copiar la carpeta build, todo lo que contiene,a la carpeta de public en el Backend
+
+agregar el path
+
+
+
+const path = require('path')
+
+router.get('/*', (req, res, next) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'))
+})
+
+}
+
+
+
+LEF. miriam calderon sanchez
+subdirectora administrativa
+Escuela Superior De Educación Física Acapulco
+
+Id: F7C0E3BC-B09D-482F-881E-3F6B063DED31
+Emisor: AAA010101AAA
+Receptor: XXX010101XXA
+Total: 125.6
+Sello digital: A1345678
+
+
+Acapulco de juarez  
